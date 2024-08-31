@@ -3,3 +3,4 @@ pandas
 ollama
 langchain
 langchain-community
+chromadb
