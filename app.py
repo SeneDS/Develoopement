@@ -6,6 +6,7 @@ from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import OllamaEmbeddings
 from langchain.docstore.document import Document
 
+
 # Charger les données à partir d'un fichier CSV
 df = pd.read_csv('countinents_topics.csv')
 
