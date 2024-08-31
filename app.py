@@ -7,7 +7,7 @@ from langchain_community.embeddings import OllamaEmbeddings
 from langchain.docstore.document import Document
 
 # Charger les données à partir d'un fichier CSV
-df = pd.read_csv('/Users/etienne/Documents/Mémoire/countinents_topics.csv')
+df = pd.read_csv('countinents_topics.csv')
 
 # Initialiser le splitter avec une taille de segment de 1000 caractères et un chevauchement de 200 caractères
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
