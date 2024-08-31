@@ -3,8 +3,8 @@ pandas
 langchain-community
 ollama
 langchain
-chromadb==0.3.21
-protobuf==4.21.12
-opentelemetry-api==1.13.0
-opentelemetry-sdk==1.13.0
-opentelemetry-exporter-otlp==1.13.0
+chromadb
+protobuf
+opentelemetry-api
+opentelemetry-sdk
+opentelemetry-exporter-otlp
